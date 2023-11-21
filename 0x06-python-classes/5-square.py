@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines a Class Square"""
+"""Class Square that Defines a Square"""
 
 
 class Square:
@@ -55,4 +55,4 @@ class Square:
         if self.__size == 0:
             print()
         for i in range(self.__size):
-            print("#" * (self.__size
+            print("#" * (self.__size))
